@@ -1,0 +1,49 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=EB+Garamond:ital,wght@1,600&family=Hedvig+Letters+Serif:opsz@12..24&family=Outfit:wght@400;700&family=Poppins&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.container{
+    max-width: 400px;
+   margin: auto;
+
+}
+
+.card{
+    background-color: hsl(0, 0%, 100%);
+    padding: 16px;
+    padding-bottom: 30px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 0 1em;
+
+}
+
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.txt-1{
+    padding-top: 20px;
+  
+}
+
+.txt-2{
+    font-size: 15px;
+    margin-top: 20px;
+    
+}
